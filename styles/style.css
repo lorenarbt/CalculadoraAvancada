@@ -3,6 +3,7 @@ body {
     background: linear-gradient(#fff685,#fbf15e)no-repeat fixed;
     padding: 50px 0px;
 }
+
 button.clear {
     background: #ff2a2a;
     color: #fff;
@@ -33,21 +34,27 @@ input[type="text"] {
     border: 1px solid #fdc202;
     padding: 10px 20px;
     font-size: 29px;
-    background: #fceb08;
+    background: #fff;
     font-weight: bold;
     margin-bottom: 25px;
     margin-top: 10px;
-    color: #fff;
+    color: #757474;
     border-bottom: 2px solid #ffb405;
     border-radius: 20px;
 }
+
+::placeholder{
+    font-weight: lighter;
+    font-size: 20px;
+}
+
 button {
     padding: 10px 20px;
     width: 100px;
     height: 60px;
     margin-bottom: 20px;
     font-size: 20px;
-    font-weight: bold;
+    font-weight: normal;
     background: #fff;
     border: none;
     color: #757474;
