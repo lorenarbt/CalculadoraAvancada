@@ -24,6 +24,7 @@ table {
 button.equal {
     width: 88%;
     background: #48c55b;
+    color: #fff;
 }
 button.equal:hover{
 	background: #5dac69;
