@@ -1,23 +1,22 @@
 body {
     margin: 0;
-    background: linear-gradient(#e2f081,#fbd82a)no-repeat fixed;
+    background: linear-gradient(#fff685,#fbf15e)no-repeat fixed;
     padding: 50px 0px;
 }
 button.clear {
-    background: #FFF685;
-    color: #e4950d;
+    background: #ff2a2a;
+    color: #fff;
 }
 
 button.clear:hover {
-    background: #fbf6b3;   
+    background: #fe8787;   
 }
 table {
-    background: #fff;
+    background: #fff685;
     padding: 7px 5px;
     border: 6px solid #00000000;
     text-align: center;
     padding-bottom: 0px;
-    box-shadow: 0px 0px 27px #eaa365;
     border-radius: 10px;
     margin-top: 90px;
 }
@@ -31,29 +30,30 @@ button.equal:hover{
 input[type="text"] {
     width: 450px;
     height: 81px;
-    border: 1px solid #000;
+    border: 1px solid #fdc202;
     padding: 10px 20px;
     font-size: 29px;
-    background: #3b3b3b;
+    background: #fceb08;
     font-weight: bold;
     margin-bottom: 25px;
     margin-top: 10px;
     color: #fff;
-    border-bottom: 2px solid #090f4e;
+    border-bottom: 2px solid #ffb405;
+    border-radius: 20px;
 }
 button {
     padding: 10px 20px;
     width: 100px;
     height: 60px;
     margin-bottom: 20px;
-    font-size: 26px;
+    font-size: 20px;
     font-weight: bold;
-    background: #e4950d;
+    background: #fff;
     border: none;
-    color: #fff;
-    border-radius: 6px;
+    color: #757474;
+    border-radius: 30px;
     cursor: pointer;
 }
 button:hover{
-	background: #deaf5d;
+	background: #b2b2b0;
 }
